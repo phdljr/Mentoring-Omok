@@ -10,11 +10,6 @@ public class Stone{
 		this.y = y;
 	}
 	
-	public Stone(Point p) {
-		this.x = (int) p.getX();
-		this.y = (int) p.getY();
-	}
-	
 	public int getX() {
 		return x;
 	}

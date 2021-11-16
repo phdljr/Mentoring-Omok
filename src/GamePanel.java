@@ -26,8 +26,8 @@ public class GamePanel extends JPanel {
 	 */
 	public static final int WIDTH = 450;
 	public static final int HEIGHT = 450;
-	private static final int LINE = 18;
-	private static final int SIZE = WIDTH/LINE;
+	private static final int LINE = 18; //총 줄의 개수-1
+	public static final int SIZE = WIDTH/LINE;
 	private static final int MIN_X = 10;
 	private static final int MIN_Y = 10;
 	private static final int MAX_X = MIN_X + WIDTH;
