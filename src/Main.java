@@ -1,4 +1,4 @@
-package graphic;
+
 
 public class Main {
 
